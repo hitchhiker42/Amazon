@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'sessions/destroy'
 
-  # root 'welcome#index'
+  root 'products#index'
 
   resources :products do
     resources :reviews, only: [:show, :create, :destroy]

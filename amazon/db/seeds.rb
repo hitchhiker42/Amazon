@@ -7,3 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 user1 = User.new(email: 'yaya', password: 'pass', password_confirmation: 'pass')
+p1 = Product.create(name: 'glass', description: 'fragile', price_in_cents: 400)
